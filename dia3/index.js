@@ -1,6 +1,6 @@
 let nome = prompt("digite seu nome");
 let idade = parseInt(prompt("olá " + nome + ", qual sua idade"));
-let altura = parseFloat(prompt("digite sua altura"));
+let altura = Number(prompt("digite sua altura"));
 let peso = prompt("e por ultimo digite seu peso");
 
 let anoNascimento = 2023 - idade;
